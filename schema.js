@@ -1,4 +1,4 @@
-const { gql } = require('apollo-server-express');
+import { gql } from 'apollo-server-express';
 
 const typeDefs = gql `
 type Catalog  {
@@ -69,4 +69,4 @@ type Query  {
     dataset(uri: ID!): Dataset
 }
 `;
-module.exports = typeDefs;
+export default typeDefs;
