@@ -13,7 +13,7 @@
     "apollo-datasource-rest": "^0.6.11",
     "apollo-server": "^2.14.2",
     "apollo-server-express": "^2.14.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "graphql": "^14.5.8",
     "sparqljs": "^3.0.1"
   }
